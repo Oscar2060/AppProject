@@ -1,0 +1,2 @@
+class GymProduct < ApplicationRecord
+end

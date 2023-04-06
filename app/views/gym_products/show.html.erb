@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @gym_product.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @gym_product.description %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @gym_product.price %>
+</p>
+
+<p>
+  <strong>Numinstock:</strong>
+  <%= @gym_product.numInStock %>
+</p>
+
+<%= link_to 'Edit', edit_gym_product_path(@gym_product) %> |
+<%= link_to 'Back', gym_products_path %>
